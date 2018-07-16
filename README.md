@@ -1,10 +1,3 @@
-# personal-website-template
+# Kyle's Personal Website
 
-A simple one page template suited for personal and portfolio pages. 
-
-## Usage
-
-- Fork this repository
-- Rename it to `<your-github-username>.github.io`
-- Edit `index.html` to add your personal details
-- Goto `http://<your-github-username.github.io` and website will be visible there
+This is the repo for my personal website. If you feel so inclined, feel free to submit a pull request with any suggested changes or fixes.
