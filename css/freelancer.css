@@ -62,14 +62,14 @@ hr.star-primary {
 }
 hr.star-primary:after {
   background-color: white;
-  color: #2C3E50;
+  color: #b317bc;
 }
 .img-centered {
   margin: 0 auto;
 }
 header {
   text-align: center;
-  background: #18BC9C;
+  background: #b317bc;
   color: white;
 }
 header .container {
