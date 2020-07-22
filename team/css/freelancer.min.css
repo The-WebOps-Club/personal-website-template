@@ -19,13 +19,13 @@
  .navbar-custom .navbar-brand,.navbar-custom .navbar-brand.active,.navbar-custom .navbar-brand:active,.navbar-custom .navbar-brand:focus,.navbar-custom .navbar-brand:hover,.navbar-custom .navbar-nav li a,header{color:#fff}
  .img-centered{margin:0 auto}
  /* header{text-align:center;background:#049494} */
- header{text-align:center;background-image:linear-gradient(to bottom right,#019195, #019195 50%, #f57f33 50%,#f57f33);}
+ header{width:100%;text-align:center;background-image:linear-gradient(to bottom right,#019195, #019195 50%, #f57f33 50%,#f57f33);}
  header .container{padding-top:100px;padding-bottom:50px}
  header img{display:block;margin:0 auto 20px}
  header .intro-text .name{display:block;font-weight:700;font-size:2em}
  header .intro-text .skills{font-size:1.25em;font-weight:300}
  @media (min-width:768px){
-  header .container{padding-top:200px;padding-bottom:100px}
+  header .container{padding-top:100px;padding-bottom:50px}
   header .intro-text .name{font-size:4.75em}
   header .intro-text .skills{font-size:1.75em}
 }
