@@ -5,7 +5,7 @@
  */body{font-family:Lato,'Helvetica Neue',Helvetica,Arial,sans-serif;overflow-x:hidden}
  p{font-size:20px}
  p.small{font-size:16px}
- a,a.active,a:active,a:focus,a:hover{color:#049494;outline:0}
+ a,a.active,a:active,a:focus,a:hover{color:#58e4e4;outline:0}
  h1,h2,h3,h4,h5,h6{font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;text-transform:uppercase;font-weight:700}
  hr.star-light,hr.star-primary,hr.star-white{padding:0;border:none;border-top:solid 5px;text-align:center;max-width:250px;margin:25px auto 30px}
  hr.star-light:after,hr.star-primary:after,hr.star-white:after{content:"\f005";font-family:FontAwesome;display:inline-block;position:relative;top:-.8em;font-size:2em;padding:0 .25em}
