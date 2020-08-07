@@ -31,9 +31,6 @@
 }
 @media only screen and (max-width: 700px) {
   header,section,footer{width: 100rem!important;}
-  .row{
-    width:100% !important;
-  }
 }
  .navbar-custom{background:#2C3E50;font-weight:700;border:none}
  .navbar-custom a:focus{outline:0}
