@@ -106,7 +106,7 @@
     padding: 10px;   
   }
   @media (max-width:767px){
-    .column{ width: auto; padding: 50px;}
+    .column{ width: auto; padding: 10px;}
   }
   
   /* Clear floats after the columns */
