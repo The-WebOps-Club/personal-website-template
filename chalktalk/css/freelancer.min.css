@@ -29,12 +29,12 @@
   header .intro-text .name{font-size:4.75em}
   header .intro-text .skills{font-size:1.75em}
 }
-@media only screen and (max-width: 700px) {
+/* @media only screen and (max-width: 700px) {
   header,section,footer{width: 100rem!important;}
   .row{
     width:100% !important;
-  }
-}
+  } */
+/* } */
  .navbar-custom{background:#2C3E50;font-weight:700;border:none}
  .navbar-custom a:focus{outline:0}
  .navbar-custom .navbar-nav{letter-spacing:1px}
@@ -106,6 +106,9 @@
  .column {
     float: left;
     width: 50%;
+  }
+  @media (max-width:767px){
+    .column{ width: 250px;}
   }
 
   
