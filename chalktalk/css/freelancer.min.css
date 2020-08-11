@@ -108,9 +108,8 @@
     width: 50%;
   }
   @media (max-width:767px){
-    .column{ width: 250px;
-      align-items: center;
-      padding: 10px;
+    .column{ width: 400px;
+      text-align: center;
     }
   }
 
