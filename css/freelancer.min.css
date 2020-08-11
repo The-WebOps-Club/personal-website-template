@@ -48,7 +48,7 @@
  section{padding:100px 0}
  section h2{margin:0;font-size:3em}
  section.success{background:#049494;color:#fff}
- @media (max-width:767px){section{padding:75px 0}
+ @media (max-width:768px){section{padding:75px 0}
  section.first{padding-top:75px}
 }
  #portfolio .portfolio-item{margin:0 0 15px;right:0}
@@ -60,7 +60,7 @@
  #portfolio .portfolio-item .portfolio-link .caption .caption-content i{margin-top:-12px}
  #portfolio .portfolio-item .portfolio-link .caption .caption-content h3,#portfolio .portfolio-item .portfolio-link .caption .caption-content h4{margin:0}
  #portfolio *{z-index:2}
- @media (min-width:767px){#portfolio .portfolio-item{margin:0 0 30px}
+ @media (min-width:768px){#portfolio .portfolio-item{margin:0 0 30px}
 }
  .floating-label-form-group{position:relative;margin-bottom:0;padding-bottom:.5em;border-bottom:1px solid #eee}
  .floating-label-form-group input,.floating-label-form-group textarea{z-index:1;position:relative;padding-right:0;padding-left:0;border:none;border-radius:0;font-size:1.5em;background:0 0;box-shadow:none!important;resize:none}
@@ -105,9 +105,6 @@
     width: 50%;
     padding: 10px;   
   }
-  @media (max-width:767px){
-    .column{ width: auto; padding: 10px;}
-  }
   
   /* Clear floats after the columns */
   .row:after {
@@ -115,3 +112,13 @@
     display: table;
     clear: both;
   }
+  
+/* edits */
+iframe {
+  width: 800px;
+  height: 600px;
+}
+@media (max-width:768px){
+  .column{ width: auto; padding: 10px;}
+  iframe { width: 400px; height: 300px;}
+}
