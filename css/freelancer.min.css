@@ -119,7 +119,7 @@ iframe {
   height: 600px;
 }
 @media (max-width:768px){
-  .column{ width: auto; padding: 20px;}
+  .column{ width: auto; padding: 10px;}
   iframe { width: 400px; height: 300px;}
   h2 {font-size: 2em;}
 }
