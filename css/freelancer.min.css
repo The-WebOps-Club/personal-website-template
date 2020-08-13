@@ -19,7 +19,7 @@
  .navbar-custom .navbar-brand,.navbar-custom .navbar-brand.active,.navbar-custom .navbar-brand:active,.navbar-custom .navbar-brand:focus,.navbar-custom .navbar-brand:hover,.navbar-custom .navbar-nav li a,header{color:#fff}
  .img-centered{margin:0 auto}
  /* header{text-align:center;background:#049494} */
- header{width:100%;text-align:center;background-image:linear-gradient(to bottom right, #017b80,#88c2c4 50%,#ffbb8e 50%,#f38135);}
+ header{width:100%;text-align:center;background-image:linear-gradient(to bottom right, #049494,#049494 50%,#f57f33 50%,#f57f33);}
  header .container{padding-top:100px;padding-bottom:50px}
  header img{display:block;margin:0 auto 20px}
  header .intro-text .name{display:block;font-weight:700;font-size:2em}
@@ -119,6 +119,7 @@ iframe {
   height: 600px;
 }
 @media (max-width:768px){
-  .column{ width: auto; padding: 10px;}
+  .column{ width: auto; padding: 20px;}
   iframe { width: 400px; height: 300px;}
+  h2 {font-size: 2em;}
 }
