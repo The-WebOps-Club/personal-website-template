@@ -4,3 +4,19 @@
 br {
     padding: 1px;
 }
+.cirlce-image {
+    height: 200px;
+    width: 200px;
+    object-fit:cover;
+    border-radius: 50%;
+    margin: 10px;
+}
+.photo {
+    text-align: right;
+    padding-right: 50px;
+}
+.info-center {
+    height: 200px;
+    display: flex;
+    align-items: center;
+}
