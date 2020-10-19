@@ -29,7 +29,60 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-</head>
+
+            <style>
+            .collapsible {
+              background-color: #777;
+              color: white;
+              cursor: pointer;
+              padding: 18px;
+              width: 100%;
+              border: none;
+              text-align: center;
+              outline: none;
+              font-size: 15px;
+            }
+
+            .active, .collapsible:hover {
+              background-color: #555;
+            }
+
+            .collapsible-content {
+              /* without animation*/
+                /*
+                padding: 0 18px;
+              display: none;
+                overflow: hidden;
+                */
+                
+                /*with animation */
+                padding: 0 18px;
+  background-color: coral;
+                color: white;
+                font-size: 10px;
+                font-weight: bold;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+                
+            }
+
+
+        .collapsible:after {
+      content: '\002B';
+      color: white;
+    font-size: 43px;
+      font-weight: bold;
+      float: right;
+      /*margin-left: 5px;*/
+    }
+
+    .active:after {
+      content: "\2212";
+    }
+
+            </style>
+    </head>
 
 <body id="page-top" class="index">
 
@@ -190,19 +243,25 @@
         <div class="container">
             <div class="row">
                 <div class="column">
-                    <h2>Reddit AMA</h2>
+                    <button type="button" class="collapsible"><h2>Reddit AMA<br><br></h2></button>
+                                        <div class="collapsible-content">
+
                     <p>
                         Zoom Q&A session with Professor Niema Moshiri. Watch the recording on <a href="https://www.youtube.com/watch?v=5CgXMYFBojQ" target="_blank">Youtube</a>.
                     </p>
+                    </div>
                 </div>
 
                 <div class="column">
-                    <h2>Bioinformatics Bootcamp</h2>
+                    <button type="button" class="collapsible"><h2>Bioinformatics Bootcamp</h2></button>
+                                        <div class="collapsible-content">
+
                     <p>
                         Introductory bioinformatics lessons for new members.
                         Visit <a href="http://bioinformaticscrashcourse.com/" target="_blank">bioinformaticscrashcourse.com</a> 
                         to check out our lessons!
                     </p>
+                    </div>
                 </div>
             </div>
 <!-- 
@@ -212,14 +271,19 @@
 
             <div class="row">
                 <div class="column">
-                    <h2>UBIC Socials</h2>
+                    <button type="button" class="collapsible"><h2>UBIC Socials<br><br></h2></button>
+                                        <div class="collapsible-content">
+
                     <p>
                         Coming soon.  
                     </p>
+                    </div>
                 </div>
 
                 <div class="column">
-                    <h2>UBIC Mentor-Mentee program</h2>
+                    <button type="button" class="collapsible"><h2>UBIC Mentor-Mentee program</h2></button>
+                                        <div class="collapsible-content">
+
                     <p>
                         Our mentorship program is designed to provide mentees guidance from their mentors to help 
                         achieve the mentees' goals. We hope to get you prepared for a future career path and research 
@@ -227,6 +291,7 @@
                         <br><br>
                         Recruitment: FA20, WI21
                     </p>
+                    </div>
                 </div>
             </div>
             
@@ -235,20 +300,38 @@
             <br> -->
             <div class="row">
                 <div class="column">
-                    <h2>Southwestern Bioinformatics Conference</h2>
-                    <p>
-                        Southwestern Bioinformatics Conference(SBC) is a two-day event containing opportunities like research 
-                        talks from faculties, graduate showcase, networking luncheon and industry panels. Our goal is to 
-                        foster knowledge and collaboration among bioinformatics research groups in the southwest and to build 
-                        connections between scientists in this region. 
-                        <br><br>
-                        Time: Early April every year
-                        <br>
-                        <a href="https://www.facebook.com/events/414301166086493/" target="_blank">Previous conference lineup</a>
-                    </p>
+                    
+                    
+                    
+                    
+                    
+                     <!--<h2 type = "button" class="collapsible">Southwestern Bioinformatics Conference</h2>-->
+                    <button type="button" class="collapsible"><h2>Southwestern Bioinformatics Conference</h2></button>
+                    <div class="collapsible-content">
+                        <p>
+                            Southwestern Bioinformatics Conference(SBC) is a two-day event containing opportunities like research 
+                            talks from faculties, graduate showcase, networking luncheon and industry panels. Our goal is to 
+                            foster knowledge and collaboration among bioinformatics research groups in the southwest and to build 
+                            connections between scientists in this region. 
+                            <br><br>
+                            Time: Early April every year
+                            <br>
+                            <a href="https://www.facebook.com/events/414301166086493/" target="_blank">Previous conference lineup</a>
+                        </p>
+                    </div>
+                    
+                    
+                    
+                    
                 </div>
+                
+                
+                
+                
+                
                 <div class="column">
-                    <h2><a style="color:white" href="chalktalk">Chalk Talks</a></h2>
+                    <button type="button" class="collapsible"><h2><a style="color:white" href="chalktalk">Chalk Talks<br><br><br></a></h2></button>
+                    <div class="collapsible-content">
                     <p>
                         The aim of Chalk Talk is to introduce students to the vibrant bioinformatics research community on 
                         campus. Professors from various fields are invited every talk to introduce their research focus. 
@@ -259,6 +342,7 @@
                         <br>
                         Previous: FA19, WI20
                     </p>
+                    </div>
                 </div>
 
             </div>
@@ -583,6 +667,47 @@
 
     <!-- Theme JavaScript -->
     <script src="js/freelancer.min.js"></script>
+    <!-- Collapsible JS-->
+    <script>
+        // without animation start
+                        var coll = document.getElementsByClassName("collapsible");
+                        var i;
+
+                        for (i = 0; i < coll.length; i++) {
+                          coll[i].addEventListener("click", function() {
+                            this.classList.toggle("active");
+                            var cotent = this.nextElementSibling;
+                            if (cotent.style.display === "block") {
+                              cotent.style.display = "none";
+                            } else {
+                              cotent.style.display = "block";
+                            }
+                          });
+                        }
+                            /*if (content.style.maxHeight){
+                              content.style.maxHeight = null;
+                            } else {
+                              content.style.maxHeight = content.scrollHeight + "px";
+                            }*/
+                      
+        
+        //with animation start
+        var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    }
+  });
+}
+        
+    </script>
 
 </body>
 
