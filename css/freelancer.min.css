@@ -39,7 +39,7 @@ hr.star-light:after,hr.star-primary:after,hr.star-white:after{content:"\f005";fo
  .navbar-custom .navbar-nav{letter-spacing:1px}
  .navbar-custom .navbar-nav li a:hover{color:#15a5a5;outline:0}
  .navbar-custom .navbar-nav li a:active,.navbar-custom .navbar-nav li a:focus{color:#fff}
- .navbar-custom .navbar-nav li.active a,.navbar-custom .navbar-nav li.active a:active,.navbar-custom .navbar-nav li.active a:focus,.navbar-custom .navbar-nav li.active a:hover{color:#fff;background:#15a5a5}
+ .navbar-custom .navbar-nav li.active a,.navbar-custom .navbar-nav li.active a:active,.navbar-custom .navbar-nav li.active a:focus,.navbar-custom .navbar-nav li.active a:hover{color:#fff;background:#15a5a5; font-size:20px}
  .navbar-custom .navbar-toggle{color:#fff;text-transform:uppercase;font-size:10px;border-color:#fff}
  .navbar-custom .navbar-toggle:focus,.navbar-custom .navbar-toggle:hover{background-color:#15a5a5;color:#fff;border-color:#15a5a5}
  @media (min-width:768px){.navbar-custom{padding:25px 0;-webkit-transition:padding .3s;-moz-transition:padding .3s;transition:padding .3s}
