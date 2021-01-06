@@ -126,54 +126,7 @@ iframe {
   h2 {font-size: 2em;}
 }
 
-.collapsible {
-        background-color: #15a5a5;
-        
-        cursor: pointer;
-        width: 100%;
-              
-        border: 2px solid white;
-        outline: white;
-        padding-top: 10px;
-        padding-bottom: 10px;
-                
-        transition-duration: 0.8s;
-                
-        text-align: center;
-        color:white;            
-        font-size: 40px;
-        font-weight: 100;
-        
-        }
 
-            .active, .collapsible:hover {
-              background-color: #a9cbcc;
-                font-size: 43px;
-            }
-
-            .collapsible-content {
-                padding: 0 18px;
-  /*background-color: #f98029;*/
-                color: white;
-                text-align: center;
-    font-family: sans-serif;
-    font-size: 25px;
-    font-weight: 100;
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.2s ease-out;
-                
-            }
-
-
-        .collapsible:after {
-      content: '\002B';
-      color: white;
-    font-size: 50px;
-      font-weight: bold;
-      float: right;
-      /*margin-left: 5px;*/
-    }
 
 @keyframes logoFade {
     
