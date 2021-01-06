@@ -23,7 +23,7 @@ hr.star-light:after,hr.star-primary:after,hr.star-white:after{content:"\f005";fo
  /* header{text-align:center;background:#15a5a5} */
  header{width:100%;text-align:center;background-image:linear-gradient(to bottom right, #15a5a5,#15a5a5 50%,#f57f33 50%,#f57f33);}
  header .container{padding-top:100px;padding-bottom:50px}
- header img{display:block;margin:0 auto 20px}
+ header img{display:block;margin:0 auto 20px; width:400px}
  header .intro-text .name{display:block;font-weight:700;font-size:2em}
  header .intro-text .skills{font-size:1.25em;font-weight:300}
  @media (min-width:768px){
@@ -126,5 +126,14 @@ iframe {
   h2 {font-size: 2em;}
 }
 
+@keyframes logoFade {
+    
+   0% {opacity: 0; margin:0 auto 20px; width:300px}
+   100% {opacity: 1; margin:0 auto 20px; width:400px}
+} 
 
+.logo img{
+    animation-name: logoFade;
+    animation-duration: 3s;
+}
             
