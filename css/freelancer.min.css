@@ -21,7 +21,7 @@ hr.star-light:after,hr.star-primary:after,hr.star-white:after{content:"\f005";fo
  .navbar-custom .navbar-brand,.navbar-custom .navbar-brand.active,.navbar-custom .navbar-brand:active,.navbar-custom .navbar-brand:focus,.navbar-custom .navbar-brand:hover,.navbar-custom .navbar-nav li a,header{color:#fff}
  .img-centered{margin:0 auto}
  /* header{text-align:center;background:#15a5a5} */
- header{width:100%;text-align:center;background-image:linear-gradient(to bottom right, #15a5a5,#15a5a5 50%,#f57f33 50%,#f57f33);}
+ header{width:100%;text-align:center;background-image:linear-gradient(to bottom right, #15a5a5 50%,#f57f33 50%);}
  header .container{padding-top:100px;padding-bottom:50px}
  header img{display:block;margin:0 auto 20px; width:400px}
  header .intro-text .name{display:block;font-weight:700;font-size:2em}
@@ -138,4 +138,42 @@ iframe {
     animation-name: logoFade;
     animation-duration: 3s;
 }
-            
+
+
+
+.event{
+    float: left;
+    width: 380px;
+    height: 350px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition-duration: 0.8s;
+}
+.eventhead{
+    width: 380px;
+    height: 150px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    background-image: linear-gradient(to bottom right, #15a5a5 50%,#f57f33 50%);
+    text-align: center;
+    color:white;          
+    font-size: 50px;
+    font-weight: 100;
+}
+.event p{
+    padding: 15px 15px;
+    height: 140px;
+    text-align: left;    
+    color:black;            
+    font-size: 25px;
+    font-weight: 100;
+}
+.event span{
+    padding-left: 15px;
+    font-size:20px;
+    color:darkgrey;
+    vertical-align: bottom;
+}
+
+
+
