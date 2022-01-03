@@ -96,20 +96,37 @@
                         <h3><a href="https://ucsd.zoom.us/my/ubicbootcamp">Join via Zoom</a></h3>
                         <hr class="star-light">
                     </div>
-                </div>    
-                <div class = "row">
-                     <div class="col-lg-12 text-center">
-                        <details><summary><h1>Catch up on previous Bootcamp sessions</h1>
-                            <hr class="star-primary"></summary>
-                            <a href="https://drive.google.com/file/d/1m9ZDBv1Y72pg-zapAzfqDQrGpuLLJ1wk/view?usp=sharing" target="_blank"><h3>Session 1: Introduction</h3></a>
-                            <a href="https://drive.google.com/drive/folders/1INluI-wdatwER1nhpZYLX0PZEU_-bbMh?usp=sharing" target="_blank"><h3>Session 2: Basic Linux and Python</h3></a>
-                            <a href="https://drive.google.com/drive/folders/1C-rhXwkU9Xr5KHX9SOcONrn6IeOEc48S?usp=sharing" target="_blank"><h3>Session 3: More Python</h3></a>
-                            <a href="https://drive.google.com/file/d/1-WxYMeo-SRU_IcOli_aE-WfE3ALmBw2M/view?usp=sharing" target="_blank"><h3>Session 4: Biopython and NumPy</h3></a>
-
-                         </details>
-                        
-                    </div>
                 </div>
+                <br />
+                <br />
+                <br />
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h1>Previous Bootcamp Sessions</h1>
+                        <hr class="star-primary">
+                    </div>
+                    <!-- 
+                        data from: 
+                        https://docs.google.com/spreadsheets/d/e/2PACX-1vTvv7k_2IQ5OjN2q4ihFmv68rk9SotIgTcvP1zAOgvMACC2jBpsnRknn6ZkQnVHHuoDT2eKVYQBAGqa/pub?gid=0&single=true&output=csv
+                     -->
+
+                    <table class="table">
+                        <thead>
+                        <tr>
+                            <th scope="col">Week</th>
+                            <th scope="col">Title</th>
+                            <th scope="col">Link</th>
+                        </tr>
+                        </thead>
+                        <tbody id="script-target">
+                            
+                        </tbody>
+                    </table>
+
+                    <div class="display" id="display"></div>
+
+                </div>
+                
             </div>
         </section>
     
@@ -440,6 +457,9 @@
 
     <!-- Theme JavaScript -->
     <script src="js/freelancer.min.js"></script>
+
+    <!-- Table Update Code -->
+    <script src="js/table.js"></script>
 
 </body>
 
