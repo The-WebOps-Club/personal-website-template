@@ -7,7 +7,7 @@ function dataAlert() {
             img_link = img_link.replace('/file/d/','/uc?export=view&id=').replace('/open?id=', '/uc?export=view&id=');
             var input = '\
             <div class="team-card col-sm-3 card-container">\
-                    <img class="cirlce-image center" src='+img_link+'alt='+img_link+'>\
+                    <img class="cirlce-image center" src="'+img_link+'"alt='+img_link+'>\
                     <p><b>'+datapoints[i+1]+'</b>\
                         <br>\
                         '+datapoints[i+2]+'\
