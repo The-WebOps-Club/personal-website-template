@@ -3,7 +3,8 @@ function dataAlert() {
         var datapoints = result.split(/\n/).join("\t").split("\t");
         for(let i = 6; i<datapoints.length; i+=6){
             // var input = '<tr><th scope="row">' + datapoints[i] + '</th><td><a href="#">' +datapoints[i+1] + '</a></td><td><a href="#">' + datapoints[i+2] + '</a></td></tr>';
-            var img_link = datapoints[i+5].replace('/file/d/','/uc?export=view&id=').replace('/open?id=', '/uc?export=view&id=');
+            var img_link = datapoints[i+5];
+            img_link = img_link.replace('/file/d/','/uc?export=view&id=').replace('/open?id=', '/uc?export=view&id=');
             var input = '\
             <div class="team-card col-sm-3 card-container">\
                     <img class="cirlce-image center" src='+img_link+'alt='+img_link+'>\
@@ -20,7 +21,7 @@ function dataAlert() {
                         </div>\
                     </div>\
                 </div>\
-                ';
+                '
                 
             
             $("#script-target").append(input);
