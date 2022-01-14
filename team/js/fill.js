@@ -5,7 +5,7 @@ function dataAlert() {
             // var input = '<tr><th scope="row">' + datapoints[i] + '</th><td><a href="#">' +datapoints[i+1] + '</a></td><td><a href="#">' + datapoints[i+2] + '</a></td></tr>';
             var input = '\
             <div class="team-card col-sm-3 card-container">\
-                    <img class="cirlce-image center" src='+datapoints[i+5]+'alt='+datapoints[i+5]+'>\
+                    <img class="cirlce-image center" src='+datapoints[i+5].replace('/file/d/','/uc?export=view&id=').replace('/open?id=', '/uc?export=view&id=')+'alt='+datapoints[i+5]+'>\
                     <p><b>'+datapoints[i+1]+'</b>\
                         <br>\
                         '+datapoints[i+2]+'\
