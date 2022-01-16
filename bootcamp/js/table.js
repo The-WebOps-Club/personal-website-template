@@ -3,17 +3,17 @@ function tableUpdate(link, target) {
         var datapoints = result.split(/\n/).join("\t").split("\t");
         for(let i = 6; i<datapoints.length; i+=6){
             var lesson = '<tr><th scope="row">' + datapoints[i] + '</th>';
-            var resource = datapoints[i+1].startswith("http") ? '<td><a href="' + datapoints[i+1] +'"> Lesson Link' + '</a></td>': '<td>TBD</td>';
+            var resource = datapoints[i+1].startsWith("http") ? '<td><a href="' + datapoints[i+1] +'"> Lesson Link' + '</a></td>': '<td>TBD</td>';
 //             if( ! datapoints[i+1].startswith("http")){
 //                 resource = '<td>TBD</td>'
 //             }
             var date = '<td>' + datapoints[i+2] + '</td>';
             var week = '<td>' + datapoints[i+3] + '</td>';
-            var recording = datapoints[i+4].startswith("http") ? '<td><a href="'+ datapoints[i+4]+'">Recording Link</a></td>' : '<td>Sorry, No Recording</td>';
+            var recording = datapoints[i+4].startsWith("http") ? '<td><a href="'+ datapoints[i+4]+'">Recording Link</a></td>' : '<td>Sorry, No Recording</td>';
 //             if(! datapoints[i+4].startswith("http")){
 //                 var recording = '<td>Sorry, No Recording</td>';
 //             }
-            var folder = datapoints[i+5].startswith("http") ? '<td><a href="'+datapoints[i+5]+'"> Folder Link</a></td></tr>' : '<td>TBD</td>';
+            var folder = datapoints[i+5].startsWith("http") ? '<td><a href="'+datapoints[i+5]+'"> Folder Link</a></td></tr>' : '<td>TBD</td>';
 //             if(! datapoints[i+5].startswith("http")){
 //                 folder = '<td>TBD</td>';
 //             } else{
