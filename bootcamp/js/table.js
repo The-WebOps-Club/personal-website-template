@@ -9,11 +9,11 @@ function tableUpdate(link, target) {
 //             }
             var date = '<td>' + datapoints[i+2] + '</td>';
             var week = '<td>' + datapoints[i+3] + '</td>';
-            var recording = datapoints[i+4].startsWith("http") ? '<td><a href="'+ datapoints[i+4]+'">Recording Link</a></td>' : '<td>Sorry, No Recording</td>';
+            var recording = datapoints[i+4].startsWith("http") ? '<td><a href="'+ datapoints[i+4]+'">Recording Link</a></td>' : '<td>'+datapoints[i+4]+'</td>';
 //             if(! datapoints[i+4].startswith("http")){
 //                 var recording = '<td>Sorry, No Recording</td>';
 //             }
-            var folder = datapoints[i+5].startsWith("http") ? '<td><a href="'+datapoints[i+5]+'"> Folder Link</a></td></tr>' : '<td>TBD</td>';
+            var folder = datapoints[i+5].startsWith("http") ? '<td><a href="'+datapoints[i+5]+'"> Folder Link</a></td></tr>' : '<td>'+datapoints[i+5]+'</td>';
 //             if(! datapoints[i+5].startswith("http")){
 //                 folder = '<td>TBD</td>';
 //             } else{
