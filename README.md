@@ -1,6 +1,6 @@
-# personal-website-template
+# UBIC 2020 Website
 
-A simple one page template suited for personal and portfolio pages. 
+A simple one page website to find all our UBIC events for the coming school year!
 
 ## Usage
 
