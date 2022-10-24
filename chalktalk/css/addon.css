@@ -11,6 +11,8 @@ br {
     padding: 5px;
 }
 .latest{
-    width: 45%;
-    text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
