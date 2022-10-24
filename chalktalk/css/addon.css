@@ -10,3 +10,7 @@ br {
 .column{
     padding: 5px;
 }
+.latest{
+    height: 375px;
+    width: 300px;
+}
