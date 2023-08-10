@@ -9,7 +9,7 @@ function dataAlert() {
                 graduationDate = datapoints[i + 3],
                 major = datapoints[i + 4],
                 email = datapoints[i + 5];
-            let image = datapoints[i + 6].toLowerCase();
+            let image = datapoints[i + 6];
 
             
             var input = '\
