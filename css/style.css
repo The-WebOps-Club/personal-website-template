@@ -67,3 +67,58 @@ font-size: 50px;
 .program-section-alt div{
   margin-right: 5em;
 }
+
+.connect-section {
+  background:
+  linear-gradient(135deg, #4295a5, #e28f53);
+  text-align: center;
+}
+
+.social-box {
+  text-align: center;
+  
+}
+
+.social-children {
+  width:70%;
+  margin-left: 15%;
+  margin-right: 15%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 20px;
+}
+
+.column-style {
+  background-color: rgba(255, 255, 255, 0.3);
+  width: auto;
+  padding: 10px;
+  border-radius: 16px;
+  margin: 10px;
+}
+
+.grid-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: auto;
+}
+
+.discord-image {
+  max-width: 80%; /* Set a maximum width to ensure the image is responsive */
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: auto; /* Allow the image to scale proportionally */
+  transition: all 0.3s ease; /* Add a smooth transition effect */
+}
+
+@media (max-width: 1000px) {
+  .social-children  {
+    width:90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+  }
+}
