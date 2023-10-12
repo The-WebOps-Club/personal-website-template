@@ -80,12 +80,9 @@ font-size: 50px;
 }
 
 .social-children {
-  width:70%;
-  margin-left: 15%;
-  margin-right: 15%;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  column-gap: 20px;
+  width:60%;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
 .column-style {
@@ -104,8 +101,8 @@ font-size: 50px;
   height: auto;
 }
 
-.discord-image {
-  max-width: 80%; /* Set a maximum width to ensure the image is responsive */
+.linktree-image {
+  max-width: 40%; /* Set a maximum width to ensure the image is responsive */
   margin-top: 20px;
   margin-bottom: 20px;
   height: auto; /* Allow the image to scale proportionally */
