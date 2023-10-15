@@ -1,0 +1,121 @@
+.collapsible:not(.navbar-collapse) {
+    background-color: #15a5a5;
+    cursor: pointer;
+    width: 100%;
+          
+    border: 2px solid white;
+    outline: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+            
+    transition-duration: 0.8s;
+            
+    text-align: center;
+    color:white;            
+    font-size: 40px;
+    font-weight: 100;
+    
+}
+
+        .active, .collapsible:hover{
+          background-color: #a9cbcc;
+            font-size: 43px;
+        }
+
+        .collapsible-content {
+            padding: 0 18px;
+/*background-color: #f98029;*/
+            color: white;
+            text-align: center;
+font-family: sans-serif;
+font-size: 25px;
+font-weight: 100;
+max-height: 0;
+overflow: hidden;
+transition: max-height 0.2s ease-out;
+            
+        }
+
+
+    .collapsible:after {
+  content: '\002B';
+  color: white;
+font-size: 50px;
+  font-weight: bold;
+  float: right;
+  /*margin-left: 5px;*/
+}
+
+.program-section{
+  margin: 4em;
+  margin-left: 10em;
+}
+
+.program-section img{
+  margin-top: 2em;
+  margin-left: 5em;
+}
+
+.program-section-alt{
+  margin: 4em;
+}
+
+.program-section-alt img{
+  margin-top: 2em;
+}
+
+.program-section-alt div{
+  margin-right: 5em;
+}
+
+.connect-section {
+  background:
+  linear-gradient(135deg, #4295a5, #e28f53);
+  text-align: center;
+}
+
+.social-box {
+  text-align: center;
+  
+}
+
+.social-children {
+  width:60%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.column-style {
+  background-color: rgba(255, 255, 255, 0.3);
+  width: auto;
+  padding: 10px;
+  border-radius: 16px;
+  margin: 10px;
+}
+
+.grid-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: auto;
+}
+
+.linktree-image {
+  max-width: 40%; /* Set a maximum width to ensure the image is responsive */
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: auto; /* Allow the image to scale proportionally */
+  transition: all 0.3s ease; /* Add a smooth transition effect */
+}
+
+@media (max-width: 1000px) {
+  .social-children  {
+    width:90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+  }
+}

@@ -6,16 +6,19 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="Undergraduate Bioinformatics Club, UC San Diego | UBIC | UCSD">
+    <meta name="author" content="UBIC">
 
-    <title>Freelancer - Yourname Theme</title>
+    <title>Undergraduate Bioinformatics Club</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Theme CSS -->
     <link href="css/freelancer.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/style.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -28,20 +31,24 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+    
 
-</head>
+ </head>
+            
+   
 
-<body id="page-top" class="index">
+<body id="page-top" class="index" >
 
     <!-- Navigation -->
-    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
+  <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header page-scroll">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand" href="#page-top">Yourname</a>
+                <a class="navbar-brand" href="#page-top"><img class="img-responsive" src="img/ubicLogo.png" alt="" width=120px></a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -50,11 +57,20 @@
                     <li class="hidden">
                         <a href="#page-top"></a>
                     </li>
-                    <li class="page-scroll">
+                    <!-- <li class="page-scroll">
                         <a href="#portfolio">Portfolio</a>
-                    </li>
+                    </li> -->
                     <li class="page-scroll">
                         <a href="#about">About</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#events">Events</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#programs">Programs</a>
+                    </li>
+                    <li class="new-page">
+                        <a href=team>Team</a>
                     </li>
                 </ul>
             </div>
@@ -67,118 +83,144 @@
     <header>
         <div class="container">
             <div class="row">
-                <div class="col-lg-12">
-                    <img class="img-responsive" src="img/profile.png" alt="">
-                    <div class="intro-text">
-                        <span class="name">Hey there! I am Yourname!</span>
-                        <hr class="star-light">
-                        <span class="skills">Add your skills here. Eg: <br/> Web Developer - Graphic Artist</span>
-                    </div>
+                <div class="logo">
+                    <img src="img/ubicLogoFB_transparent_white.png" alt="UBIC" >
                 </div>
+
+                    <div class="intro-text">
+                        <span class="name">The Undergraduate Bioinformatics Club at UCSD
+                          </span>
+                        <hr class="star-white">
+                        <span class="skills">Established 2012</span>
+                    </div>
             </div>
         </div>
     </header>
 
-    <!-- Portfolio Grid Section -->
-    <section id="portfolio">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Portfolio</h2>
-                    <hr class="star-primary">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/cabin.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/cake.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/circus.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/game.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/safe.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-                <div class="col-sm-4 portfolio-item">
-                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
-                        <div class="caption">
-                            <div class="caption-content">
-                                <i class="fa fa-search-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/submarine.png" class="img-responsive" alt="">
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <!-- About Section -->
-    <section class="success" id="about">
+    <section id="about">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2>About</h2>
-                    <hr class="star-light">
+                    <hr class="star-primary">
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-4 col-lg-offset-2">
-                    <p>Write a paragraph about who you are, where you're from, etc.</p>
-                </div>
-                <div class="col-lg-4">
-                    <p>Write a short paragraph about your hobbies and interests.</p>
-                </div>
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <!-- <a href="#" class="btn btn-lg btn-outline">
-                        <i class="fa fa-download"></i> Download Theme
-                    </a> -->
+                    <p>
+                        UBIC represents our undergraduates who are studying in or interested in the
+                         diverse field of bioinformatics. Through a combination of events,
+                          programs, and projects our mission is to educate and contribute to the education
+                           and aspirations of every bioinformatics student at UC San Diego.
+                    </p>
+                    <!--<p>
+                     Attend our <b>GBM</b> happening on Tuesday <b>Apr 12, 2022</b> at 6:30-7:30 pm at the <b>Red Room in PC</b>! FREE FOOD at the start! We'll also be hanging around starting at 6 if you wanna come ask questions. You can also join online at <a href="https://ucsd.zoom.us/j/3334539145">333 453 9145</a>
+                    </p>-->
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    
+    <!-- Events Section -->
+    <section  class="connect-section"  id="Connect">
+    <section id="events">
+        <h2>Events</h2>
+        
+        <div class="social-box">
+            <div class="social-children">
+
+                <div class="column-style">
+                    <h4 class="grid-child">Find our socials through this link tree!</h4>
+                    <div class="grid-child">
+                        <img src="./img/UBIC-linktree.png" class="linktree-image" ></img>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
+    </section>
+    
+    <!-- Programs Section -->
+    <section id="programs">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Programs</h2>
+                    <hr class="star-white">
+                </div>
+            </div>
 
-    <!-- Contact Section -->
+            <!-- NO MORE REDDIT AMA -->
+
+            <div class="row program-section">
+                <img class="col-sm-3" src="img/undraw_camping.svg">
+                <div class="col-sm-7">
+                    <h3>Bioinformatics Bootcamp</h3>
+                    <p>
+                        A year-long introductory sequence of lessons to introduce new bioinformaticians to lab-applicable technical skills. For years, it has served as students’ earliest exposure to bioinformatics at UC San Diego.
+                        <br>
+                        <br>
+                        Visit <a href="http://bioinformaticscrashcourse.com/" target="_blank">bioinformaticscrashcourse.com</a> 
+                        to check out our lessons!                    </p>
+                </div>
+            </div>
+
+            <div class="row program-section">
+                <img class="col-sm-3" src="img/undraw_chalk_talk.svg">
+                <div class="col-sm-7">
+                    <h3>Chalk Talks</h3>
+                    <p>
+                        The aim of Chalk Talk is to introduce students to the vibrant bioinformatics research community on 
+                        campus. Professors from various fields are invited every talk to introduce their research focus. 
+                        This would be a great opportunity to keep up with the rapid advances of the field and meet your 
+                        next mentor! 
+                        <br><br>
+                        Time: Biweekly starting fall
+                      </p>
+                </div>
+            </div>
+
+            <div class="row program-section">
+                <img class="col-sm-3" src="img/undraw_pizza_sharing_wxop.svg">
+                <div class="col-sm-7">
+                    <h3>Socials</h3>
+                    <p>
+                        UBIC holds a variety of social events for students. These include bonfires, retreats, game nights, and more! Make sure to check our Discord and Instagram for upcoming social events.                      
+                      </p>
+                </div>
+            </div>
+
+            <div class="row program-section">
+                <img class="col-sm-3" src="img/undraw_online_learning_re_qw08.svg">
+                <div class="col-sm-7">
+                    <h3>Mentor-Mentee Program</h3>
+                    <p>
+                        Our mentorship program is designed to provide mentees guidance from their mentors to help 
+                        achieve the mentees' goals. We hope to get you prepared for a future career path and research 
+                        opportunities with our experience.  
+                      </p>
+                </div>
+            </div>
+
+            <div class="row program-section">
+                <img class="col-sm-3" src="img/undraw_conference_speaker_re_1rna.svg">
+                <div class="col-sm-7">
+                    <h3>Southwestern Bioinformatics Conference</h3>
+                    <p>
+                        Southwestern Bioinformatics Conference(SBC) is a two-day event containing opportunities like research 
+                        talks from faculties, graduate showcase, networking luncheon and industry panels. Our goal is to 
+                        foster knowledge and collaboration among bioinformatics research groups in the southwest and to build 
+                        connections between scientists in this region. 
+                        <br><br>
+                        Time: Early April every year
+                      </p>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
 
     <!-- Footer -->
     <footer class="text-center">
@@ -187,32 +229,34 @@
                 <div class="row">
                     <div class="footer-col col-md-4">
                         <h3>Location</h3>
-                        <p>Your hostel address line 1
-                            <br>Your hostel address line 2</p>
+                        <p>9500 Gilman Drive
+                            <br>La Jolla, CA 92093</p>
                     </div>
                     <div class="footer-col col-md-4">
-                        <h3>Around the Web</h3>
+                        <h3>Contact Us</h3>
+                        <!-- <p><u>ubic.ucsd@gmail.com</u></p> -->
+                        <p><a style="color:white" href="https://goo.gl/forms/GSSwUbKap3Ln27Iy1"><u>Join Our Mailing List Here!</u></a></p>
                         <ul class="list-inline">
                             <li>
-                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
+                                <a href="https://discord.gg/b5Z9Th9hrp" class="btn-social btn-outline" target="_blank"><i class="iconify" data-icon="fa-brands:discord"></i> </a>
                             </li>
                             <li>
-                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
+                                <a href="https://www.facebook.com/ubic.ucsd/" class="btn-social btn-outline" target="_blank"><i class="fa fa-fw fa-facebook"></i></a>
                             </li>
                             <li>
-                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
+                                <a href="mailto: ubic.ucsd@gmail.com" class="btn-social btn-outline" target="_blank"><i class="fa fa-fw fa-envelope"></i></a>
                             </li>
                             <li>
-                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
-                            </li>
+                                <a href="https://www.instagram.com/ucsd_bioinformatics" class="btn-social btn-outline" target="_blank"><i class="fa fa-fw fa-instagram"></i></a>
+                            </li>                            
                             <li>
-                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-dribbble"></i></a>
+                                <a href="https://www.linkedin.com/company/undergraduate-bioinformatics-club-at-ucsd/" class="btn-social btn-outline" target="_blank"><i class="fa fa-fw fa-linkedin"></i></a>
                             </li>
                         </ul>
                     </div>
                     <div class="footer-col col-md-4">
-                        <h3>Yourname</h3>
-                        <p><a href="http://startbootstrap.com">Yourname</a>.</p>
+                        <h3>UBIC</h3>
+                        <p><a href="http://startbootstrap.com" target="_blank">Built with Bootstrap</a>.</p>
                     </div>
                 </div>
             </div>
@@ -221,7 +265,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
-                        Copyright &copy; Your Website 2016
+                        Copyright &copy; UBIC 2020
                     </div>
                 </div>
             </div>
@@ -248,7 +292,7 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>Project Title</h2>
+                            <h2>Southwestern Bioinformatics Conference</h2>
                             <hr class="star-primary">
                             <img src="img/portfolio/cabin.png" class="img-responsive img-centered" alt="">
                             <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
@@ -285,7 +329,7 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>Project Title</h2>
+                            <h2>Crash Course</h2>
                             <hr class="star-primary">
                             <img src="img/portfolio/cake.png" class="img-responsive img-centered" alt="">
                             <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
@@ -322,7 +366,7 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>Project Title</h2>
+                            <h2>Journal Club</h2>
                             <hr class="star-primary">
                             <img src="img/portfolio/circus.png" class="img-responsive img-centered" alt="">
                             <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
@@ -359,7 +403,7 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>Project Title</h2>
+                            <h2>Mentor-Mentee Program</h2>
                             <hr class="star-primary">
                             <img src="img/portfolio/game.png" class="img-responsive img-centered" alt="">
                             <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
@@ -396,7 +440,7 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>Project Title</h2>
+                            <h2>Socials</h2>
                             <hr class="star-primary">
                             <img src="img/portfolio/safe.png" class="img-responsive img-centered" alt="">
                             <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
@@ -433,7 +477,7 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>Project Title</h2>
+                            <h2>Chalk Talks</h2>
                             <hr class="star-primary">
                             <img src="img/portfolio/submarine.png" class="img-responsive img-centered" alt="">
                             <p>Use this area of the page to describe your project. The icon above is part of a free icon set by <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
@@ -470,6 +514,55 @@
 
     <!-- Theme JavaScript -->
     <script src="js/freelancer.min.js"></script>
+    <!-- Collapsible JS-->
+    <!-- Alert for events -->
+    <!-- <script>
+        alert("UBIC is holding Spring Quarter GBM Tonight!")
+    </script> -->
+    
+    <script>
+        // without animation start
+//                        var coll = document.getElementsByClassName("collapsible");
+//                        var i;
+//
+//                        for (i = 0; i < coll.length; i++) {
+//                          coll[i].addEventListener("click", function() {
+//                            this.classList.toggle("active");
+//                            var cotent = this.nextElementSibling;
+//                            if (cotent.style.display === "block") {
+//                              cotent.style.display = "none";
+//                            } else {
+//                              cotent.style.display = "block";
+//                            }
+//                          });
+//                        }
+                            /*if (content.style.maxHeight){
+                              content.style.maxHeight = null;
+                            } else {
+                              content.style.maxHeight = content.scrollHeight + "px";
+                            }*/
+                      
+        
+        //with animation start
+        var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    }
+  });
+}
+        
+    </script>
+    <script>
+        //alert("UBIC is holding Spring Quarter GBM Tonight!")
+    </script>
 
 </body>
 
