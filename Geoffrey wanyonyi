@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Geoffrey Okhwa Wanyonyi for Bungoma Senator</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <h1>Geoffrey Okhwa Wanyonyi</h1>
+    <p>Senatorial Candidate – Bungoma County</p>
+    <p>Accountable Leadership. United Bungoma.</p>
+    <a href="#contact" class="cta-button">Support the Campaign</a>
+  </header>
+
+  <section class="about">
+    <h2>Meet Geoffrey</h2>
+    <p>Geoffrey Okhwa Wanyonyi is a visionary leader dedicated to the people of Bungoma County. With a strong background in public service and a deep connection to local communities, Geoffrey is committed to championing transparency, development, and youth empowerment in the Senate.</p>
+  </section>
+
+  <section class="priorities">
+    <h2>Why Bungoma Needs Geoffrey</h2>
+    <ul>
+      <li>🏥 Strengthen County Healthcare Systems</li>
+      <li>🎓 Advocate for Education Funding & Equity</li>
+      <li>🌾 Support Farmers & Local Agribusiness</li>
+      <li>🛠️ Create Jobs for Youth & Women</li>
+      <li>🚧 Push for Infrastructure & Road Expansion</li>
+    </ul>
+  </section>
+
+  <section class="updates">
+    <h2>Campaign Updates</h2>
+    <p>📅 Bungoma Town Rally – November 12th</p>
+    <p>📢 Radio Interview on West FM – November 15th</p>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Get Involved</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <select required>
+        <option value="">Choose your role</option>
+        <option value="volunteer">Volunteer</option>
+        <option value="donate">Donate</option>
+        <option value="subscribe">Subscribe</option>
+      </select>
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Geoffrey Okhwa Wanyonyi Campaign | info@wanyonyiforbungoma.ke</p>
+  </footer>
+</body>
+</html>
